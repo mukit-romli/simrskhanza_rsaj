@@ -14834,10 +14834,10 @@ private void MnHasilPemeriksaanUSGGynecologiActionPerformed(java.awt.event.Actio
 
     private void ChkAutoRefresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChkAutoRefresActionPerformed
     if (ChkAutoRefres.isSelected()) {
-          akses.tRefreshPoli.start();
+  //        akses.tRefreshPoli.start();
            tampil(); 
         } else {
-            akses.tRefreshPoli.stop();
+    //        akses.tRefreshPoli.stop();
             tampil();
             emptTeks();
         }
@@ -15491,10 +15491,10 @@ private void MnSudahTerbitSEPActionPerformed(java.awt.event.ActionEvent evt) {
                     "reg_periksa.p_jawab,reg_periksa.almt_pj,reg_periksa.hubunganpj,reg_periksa.biaya_reg,reg_periksa.stts_daftar,penjab.png_jawab,pasien.no_tlp,reg_periksa.stts,reg_periksa.status_poli, "+
                     "reg_periksa.kd_poli,reg_periksa.kd_pj,reg_periksa.status_bayar,"
 //                + "IFNULL(bridging_sep.no_sep, 'SEP Belum Terbit') AS no_sep,"
-                  + "IF(reg_periksa.kd_pj = 'BPJ',bsr.no_sep, IF(sdk.no_rawat IS NULL, 'Belum Sidik Jari', sdk.jam_val), '-') AS jam_sidik_jari,IF(reg_periksa.kd_pj = 'BPJ', IF(bridging_sep.no_sep IS NULL, 'SEP Belum Terbit', bridging_sep.no_sep), '-') AS no_sep "+
+                  + "IF(reg_periksa.kd_pj = 'BPJ',bridging_sep.no_sep, IF(sdk.no_rawat IS NULL, 'Belum Sidik Jari', sdk.jam_val), '-') AS jam_sidik_jari,IF(reg_periksa.kd_pj = 'BPJ', IF(bridging_sep.no_sep IS NULL, 'SEP Belum Terbit', bridging_sep.no_sep), '-') AS no_sep "+
                     "from reg_periksa inner join dokter on reg_periksa.kd_dokter=dokter.kd_dokter inner join pasien on reg_periksa.no_rkm_medis=pasien.no_rkm_medis "+
                     "inner join poliklinik on reg_periksa.kd_poli=poliklinik.kd_poli inner join penjab on reg_periksa.kd_pj=penjab.kd_pj "+
-                    "left join bridging_sep bsr on reg_periksa.no_rawat=bridging_sep.no_rawat "+    
+                    "left join bridging_sep on reg_periksa.no_rawat=bridging_sep.no_rawat "+    
                     "LEFT JOIN (SELECT sj.no_rawat, MAX(sj.validasi) AS jam_val FROM sidik_jari_bpjs sj WHERE DATE(sj.validasi) GROUP BY sj.no_rawat) AS sdk ON reg_periksa.no_rawat = sdk.no_rawat "+
                     "where poliklinik.kd_poli<>'IGDK' and reg_periksa.tgl_registrasi between ? and ? "+terbitsep+" order by "+order); 
             }else{
@@ -15506,7 +15506,7 @@ private void MnSudahTerbitSEPActionPerformed(java.awt.event.ActionEvent evt) {
                         + "IF(reg_periksa.kd_pj = 'BPJ', IF(sdk.no_rawat IS NULL, 'Belum Sidik Jari', sdk.jam_val), '-') AS jam_sidik_jari,IF(reg_periksa.kd_pj = 'BPJ', IF(bridging_sep.no_sep IS NULL, 'SEP Belum Terbit', bridging_sep.no_sep), '-') AS no_sep "+
                     "from reg_periksa inner join dokter on reg_periksa.kd_dokter=dokter.kd_dokter inner join pasien on reg_periksa.no_rkm_medis=pasien.no_rkm_medis "+
                     "inner join poliklinik on reg_periksa.kd_poli=poliklinik.kd_poli inner join penjab on reg_periksa.kd_pj=penjab.kd_pj "+
-                    "left join bridging_sep bsr on reg_periksa.no_rawat=bridging_sep.no_rawat "+
+                    "left join bridging_sep on reg_periksa.no_rawat=bridging_sep.no_rawat "+
                     "LEFT JOIN (SELECT sj.no_rawat, MAX(sj.validasi) AS jam_val FROM sidik_jari_bpjs sj WHERE DATE(sj.validasi) GROUP BY sj.no_rawat) AS sdk ON reg_periksa.no_rawat = sdk.no_rawat "+
                     "where poliklinik.kd_poli<>'IGDK' and poliklinik.nm_poli like ? and  dokter.nm_dokter like ? and reg_periksa.tgl_registrasi between ? and ? and  "+
                     "(reg_periksa.no_reg like ? or reg_periksa.no_rawat like ? or reg_periksa.tgl_registrasi like ? or reg_periksa.kd_dokter like ? or "+

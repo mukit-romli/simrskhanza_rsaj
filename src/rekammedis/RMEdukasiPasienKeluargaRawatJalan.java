@@ -40,6 +40,9 @@ import javax.swing.text.Document;
 import javax.swing.text.html.HTMLEditorKit;
 import javax.swing.text.html.StyleSheet;
 import kepegawaian.DlgCariPetugas;
+import javax.swing.JPanel;
+import javax.swing.BoxLayout;
+import javax.swing.JScrollPane;
 
 
 /**
@@ -241,7 +244,7 @@ public final class RMEdukasiPasienKeluargaRawatJalan extends javax.swing.JDialog
                 add(buildAccordionPanel());
             }
 
-            private JPanel buildAccordionPanel() {
+            private JScrollPane buildAccordionPanel() {
                 JPanel panelUtama = new JPanel();
                 panelUtama.setLayout(new BoxLayout(panelUtama, BoxLayout.Y_AXIS));
 

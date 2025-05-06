@@ -1620,15 +1620,15 @@ public final class RMDataResumePasien extends javax.swing.JDialog {
             Valid.textKosong(DiagnosaUtama,"Diagnosa Utama");
         }else{
             if(tbObat.getSelectedRow()>-1){
-                if(aksesInstance.isAdminUtama()|| akses.getkode().equals("20061624")){
+/*                if(aksesInstance.isAdminUtama()|| akses.getkode().equals("20061624")){
                     ganti();
                 }else{
                     if(KodeDokter.getText().equals(tbObat.getValueAt(tbObat.getSelectedRow(),4).toString())){
                         ganti();
                     }else{
                         JOptionPane.showMessageDialog(null,"Hanya bisa diganti oleh dokter yang bersangkutan..!!");
-                    }
-                }
+                    } 
+                } */
             }else{
                 JOptionPane.showMessageDialog(rootPane,"Silahkan anda pilih data terlebih dahulu..!!");
             }
@@ -2801,9 +2801,9 @@ if(tbObat.getSelectedRow()>-1){
             }
         }            
         
-        if(aksesInstance.isAdminUtama()){            
-            BtnDokter.setEnabled(true);
-    }
+//        if(aksesInstance.isAdminUtama()){            
+ //           BtnDokter.setEnabled(true);
+ //   }
 }
 
     private void ganti() {

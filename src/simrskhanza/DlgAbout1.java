@@ -51,7 +51,7 @@ public class DlgAbout1 extends javax.swing.JDialog {
         jTextArea1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jTextArea1.setForeground(new java.awt.Color(51, 51, 51));
         jTextArea1.setRows(5);
-        jTextArea1.setText("\n\n\n\tMustaking  \t\t0821-9490-9535\n\n\tSyahrul Ramadhan  \t0852-3739-2424\n\n\tMustafa  \t\t0823-2169-4247\n\n\tBaharuddin B.  \t0821-8952-2262\n\n\tPurnama Aji  \t\t0822-3991-0979");
+        jTextArea1.setText("\n\n\n\tMustaking  \t\t0821-9490-9535\n\n\tSyahrul Ramadhan  \t0852-3739-2424\n\n\tMustafa  \t\t0823-2169-4247\n\n\tBaharuddin B.  \t0821-8952-2262\n\n\tPurnama Aji  \t\t0822-3991-0979\n\n\tMukit Romli, S.Kom\t0853-3425-4726");
         jTextArea1.setBorder(null);
         jTextArea1.setName("jTextArea1"); // NOI18N
         jScrollPane1.setViewportView(jTextArea1);

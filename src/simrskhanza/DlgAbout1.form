@@ -55,7 +55,7 @@
               <Color blue="33" green="33" red="33" type="rgb"/>
             </Property>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="&#xa;&#xa;&#xa;&#x9;Mustaking  &#x9;&#x9;0821-9490-9535&#xa;&#xa;&#x9;Syahrul Ramadhan  &#x9;0852-3739-2424&#xa;&#xa;&#x9;Mustafa  &#x9;&#x9;0823-2169-4247&#xa;&#xa;&#x9;Baharuddin B.  &#x9;0821-8952-2262&#xa;&#xa;&#x9;Purnama Aji  &#x9;&#x9;0822-3991-0979"/>
+            <Property name="text" type="java.lang.String" value="&#xa;&#xa;&#xa;&#x9;Mustaking  &#x9;&#x9;0821-9490-9535&#xa;&#xa;&#x9;Syahrul Ramadhan  &#x9;0852-3739-2424&#xa;&#xa;&#x9;Mustafa  &#x9;&#x9;0823-2169-4247&#xa;&#xa;&#x9;Baharuddin B.  &#x9;0821-8952-2262&#xa;&#xa;&#x9;Purnama Aji  &#x9;&#x9;0822-3991-0979&#xa;&#xa;&#x9;Mukit Romli, S.Kom&#x9;0853-3425-4726"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="null"/>
             </Property>

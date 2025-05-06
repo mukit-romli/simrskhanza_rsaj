@@ -2553,11 +2553,11 @@ public final class RMTriaseIGD extends javax.swing.JDialog {
     } else {
         if (tbTriase.getSelectedRow() > -1) {
             // Modif Mustafa
-            if (aksesInstance.isAdminUtama() || akses.getkode().equals("20061624") || akses.getkode().equals(kodepetugas)) {
-                ganti();
-            } else {
-                JOptionPane.showMessageDialog(null, "Hanya bisa diganti oleh petugas yang bersangkutan..!!");
-            }
+ //           if (aksesInstance.isAdminUtama() || akses.getkode().equals("20061624") || akses.getkode().equals(kodepetugas)) {
+//                ganti();
+//            } else {
+ //               JOptionPane.showMessageDialog(null, "Hanya bisa diganti oleh petugas yang bersangkutan..!!");
+ //           }
         }
     }
     

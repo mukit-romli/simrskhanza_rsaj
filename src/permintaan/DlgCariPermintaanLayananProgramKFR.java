@@ -631,12 +631,12 @@ public class DlgCariPermintaanLayananProgramKFR extends javax.swing.JDialog {
         BtnRiwayatPasien.setText("Riwayat Perawatan");
         BtnRiwayatPasien.setFocusPainted(false);
         BtnRiwayatPasien.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
-        BtnRiwayatPasien.setGlassColor(new java.awt.Color(255, 255, 255));
+    //    BtnRiwayatPasien.setGlassColor(new java.awt.Color(255, 255, 255));
         BtnRiwayatPasien.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BtnRiwayatPasien.setMargin(new java.awt.Insets(1, 1, 1, 1));
         BtnRiwayatPasien.setName("BtnRiwayatPasien"); // NOI18N
         BtnRiwayatPasien.setPreferredSize(new java.awt.Dimension(170, 23));
-        BtnRiwayatPasien.setRoundRect(false);
+    //    BtnRiwayatPasien.setRoundRect(false);
         BtnRiwayatPasien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnRiwayatPasienActionPerformed(evt);
@@ -648,12 +648,12 @@ public class DlgCariPermintaanLayananProgramKFR extends javax.swing.JDialog {
         BtnAwalFisioTerapi.setText("Penilaian Awal Fisioterapi");
         BtnAwalFisioTerapi.setFocusPainted(false);
         BtnAwalFisioTerapi.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
-        BtnAwalFisioTerapi.setGlassColor(new java.awt.Color(255, 255, 255));
+//        BtnAwalFisioTerapi.setGlassColor(new java.awt.Color(255, 255, 255));
         BtnAwalFisioTerapi.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BtnAwalFisioTerapi.setMargin(new java.awt.Insets(1, 1, 1, 1));
         BtnAwalFisioTerapi.setName("BtnAwalFisioTerapi"); // NOI18N
         BtnAwalFisioTerapi.setPreferredSize(new java.awt.Dimension(170, 23));
-        BtnAwalFisioTerapi.setRoundRect(false);
+//        BtnAwalFisioTerapi.setRoundRect(false);
         BtnAwalFisioTerapi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnAwalFisioTerapiActionPerformed(evt);
@@ -665,12 +665,12 @@ public class DlgCariPermintaanLayananProgramKFR extends javax.swing.JDialog {
         BtnSOAPTindakan.setText("SOAP & Tindakan");
         BtnSOAPTindakan.setFocusPainted(false);
         BtnSOAPTindakan.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
-        BtnSOAPTindakan.setGlassColor(new java.awt.Color(255, 255, 255));
+ //       BtnSOAPTindakan.setGlassColor(new java.awt.Color(255, 255, 255));
         BtnSOAPTindakan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BtnSOAPTindakan.setMargin(new java.awt.Insets(1, 1, 1, 1));
         BtnSOAPTindakan.setName("BtnSOAPTindakan"); // NOI18N
         BtnSOAPTindakan.setPreferredSize(new java.awt.Dimension(170, 23));
-        BtnSOAPTindakan.setRoundRect(false);
+ //       BtnSOAPTindakan.setRoundRect(false);
         BtnSOAPTindakan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnSOAPTindakanActionPerformed(evt);
@@ -682,12 +682,12 @@ public class DlgCariPermintaanLayananProgramKFR extends javax.swing.JDialog {
         BtnDetailPermintaan.setText("Detail Permintaan Layanan");
         BtnDetailPermintaan.setFocusPainted(false);
         BtnDetailPermintaan.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
-        BtnDetailPermintaan.setGlassColor(new java.awt.Color(255, 255, 255));
+ //       BtnDetailPermintaan.setGlassColor(new java.awt.Color(255, 255, 255));
         BtnDetailPermintaan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BtnDetailPermintaan.setMargin(new java.awt.Insets(1, 1, 1, 1));
         BtnDetailPermintaan.setName("BtnDetailPermintaan"); // NOI18N
         BtnDetailPermintaan.setPreferredSize(new java.awt.Dimension(170, 23));
-        BtnDetailPermintaan.setRoundRect(false);
+ //       BtnDetailPermintaan.setRoundRect(false);
         BtnDetailPermintaan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnDetailPermintaanActionPerformed(evt);
@@ -699,12 +699,12 @@ public class DlgCariPermintaanLayananProgramKFR extends javax.swing.JDialog {
         BtnRiwayatProgram.setText("Riwayat Program KFR");
         BtnRiwayatProgram.setFocusPainted(false);
         BtnRiwayatProgram.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
-        BtnRiwayatProgram.setGlassColor(new java.awt.Color(255, 255, 255));
+//        BtnRiwayatProgram.setGlassColor(new java.awt.Color(255, 255, 255));
         BtnRiwayatProgram.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         BtnRiwayatProgram.setMargin(new java.awt.Insets(1, 1, 1, 1));
         BtnRiwayatProgram.setName("BtnRiwayatProgram"); // NOI18N
         BtnRiwayatProgram.setPreferredSize(new java.awt.Dimension(170, 23));
-        BtnRiwayatProgram.setRoundRect(false);
+//        BtnRiwayatProgram.setRoundRect(false);
         BtnRiwayatProgram.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnRiwayatProgramActionPerformed(evt);
